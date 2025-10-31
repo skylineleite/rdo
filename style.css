@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fdfdfd;
+  color: #222;
+}
+h1 { text-align: center; color: #004aad; margin-bottom: 30px; }
+h2 { background: #e9ecef; padding: 8px; border-left: 5px solid #004aad; font-size: 18px; margin-top: 25px; }
+label { font-weight: bold; display: block; margin-top: 10px; }
+input, select, button { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+button { background: #007bff; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; transition: background 0.2s ease; }
+button:hover { background: #0056b3; }
+.dialog-box { display: none; position: fixed; background: #fff; border: 2px solid #004aad; border-radius: 8px; padding: 20px; top: 30%; left: 50%; transform: translate(-50%, -30%); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
